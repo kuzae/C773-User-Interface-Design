@@ -1,0 +1,102 @@
+body {
+font-family: 'Nunito', sans-serif;
+}
+.bg-nav-custom, .bg-footer-custom {
+background-color: #003B6D;
+color: #BDBDBD;
+}
+.button-custom {
+background-color: #003B6D;
+color: white;
+transition: background-color 0.3s ease;
+}
+.button-custom:hover {
+background-color: #0056a3;
+color: white;
+}
+.navbar-brand img {
+width: 5em;
+}
+.nav-item {
+padding: 2rem;
+}
+.nav-link {
+font-size: 1.25rem;
+font-weight: 700;
+text-transform: uppercase;
+color: #BDBDBD;
+}
+.nav-link:hover {
+color: #FFFFFF;
+}
+.my-custom-margin {
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+.carousel-image {
+height: 64em;
+object-fit: cover;
+}
+.nobullet {
+list-style-type: none;
+}
+.about-section {
+padding: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.parallax {
+height: 700px;
+filter: blur(6px);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bg-mission {
+background-image: url('../images/about-1.jpg');
+}
+.bg-values {
+background-image: url('../images/about-2.jpg');
+}
+.bg-services {
+background-image: url('../images/about-3.png');
+}
+.parallax {
+min-height: 300px;
+}
+@media (max-width: 1366px) {
+.desktop-navbar {
+display: none;
+}
+.mobile-navbar {
+display: block;
+}
+.mobile-navbar .navbar {
+padding: 0.5rem;
+}
+.mobile-navbar .navbar-brand {
+font-size: 1.5rem;
+}
+.mobile-navbar .navbar-nav .nav-link {
+font-size: 0.9rem;
+}
+.navbar-collapse {
+justify-content: center;
+}
+.navbar-brand img {
+width: 2rem;
+}
+.carousel-image {
+height: 28rem;
+object-fit: cover;
+}
+}
+@media (min-width: 1000px) {
+.desktop-navbar {
+display: block;
+}
+.mobile-navbar {
+display: none;
+}
+}
